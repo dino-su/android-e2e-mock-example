@@ -1,2 +1,7 @@
-# android-e2e-mock-example
-Android E2E mock testing example.
+# android-mock-server-example
+
+## Acceptance Test Screenshot
+![E2E Screenshot](./README.files/E2ETest.png)
+
+## Mock Test Screenshot
+![Mock Screenshot](./README.files/MockTest.png)
