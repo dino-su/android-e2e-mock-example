@@ -54,10 +54,5 @@ mockResponse = """{"message":[
     "status":"success"}"""
 
 def request(flow: http.HTTPFlow):
-    # redirect to different host
     if flow.request.pretty_url == 'https://dog.ceo/api/breeds/image/random/50':
-        print('hello world')
-        flow.response = http.HTTPResponse.make(
-                200,
-                mockResponse
-        )
+        flow.response = http.HTTPResponse.make(200, mockResponse)
